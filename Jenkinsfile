@@ -20,6 +20,14 @@ pipeline {
                 }
             }
         }
+        stage('Deploy') {
+            steps {
+                // Deploy the jar (replace this with your local deployment method)
+                script {
+                    sh "java -jar target/demoProject-0.0.1-SNAPSHOT.jar"
+                }
+            }
+        }
     }
     post {
         success {
