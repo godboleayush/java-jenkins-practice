@@ -95,7 +95,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<Main-Class>com.example.DemoProjectApplication</Main-Class> <!-- Replace with your main class -->
+							<Main-Class>com.example.demoProject.DemoProjectApplication</Main-Class> <!-- Replace with your main class -->
 						</manifestEntries>
 					</archive>
 				</configuration>
